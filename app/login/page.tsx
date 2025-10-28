@@ -104,7 +104,7 @@ export default function LoginPage() {
 
         {/* Footer Text */}
         <p className="mt-6 text-center text-sm text-deep-black/70">
-          Don't have an account?{' '}
+          Don&apos;t have an account?{' '}
           <a href="#" className="font-semibold text-jacks-green underline hover:text-jacks-green/80">
             Contact us
           </a>

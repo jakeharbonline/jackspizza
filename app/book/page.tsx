@@ -134,7 +134,7 @@ export default function BookTablePage() {
             Book a <span className="text-jacks-green">Table</span>
           </h2>
           <p className="text-lg text-deep-black/80">
-            Coming soon to Brighton's North Laine. Reserve your table for when we open!
+            Coming soon to Brighton&apos;s North Laine. Reserve your table for when we open!
           </p>
         </div>
 
@@ -148,7 +148,7 @@ export default function BookTablePage() {
                   Booking Request Received!
                 </h3>
                 <p className="text-white/90">
-                  We'll be in touch soon to confirm your reservation. Thanks for your interest!
+                  We&apos;ll be in touch soon to confirm your reservation. Thanks for your interest!
                 </p>
               </div>
             </div>
@@ -333,7 +333,7 @@ export default function BookTablePage() {
             <p className="text-deep-black/80">
               <strong>Coming Soon!</strong>
               <br />
-              We'll announce our opening hours when we launch in Brighton's North Laine.
+              We&apos;ll announce our opening hours when we launch in Brighton&apos;s North Laine.
             </p>
           </div>
 

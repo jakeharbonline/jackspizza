@@ -99,8 +99,8 @@ export default function HomePage() {
               <span className="text-jacks-green">Pizza</span>
             </h2>
             <p className="mx-auto max-w-2xl text-lg text-deep-black/80 md:text-xl">
-              Born in mum's kitchen. Perfected over time. Now bringing authentic Detroit-style pizza
-              to Brighton's North Laine with 48-hour slow-fermented dough.
+              Born in mum&apos;s kitchen. Perfected over time. Now bringing authentic Detroit-style pizza
+              to Brighton&apos;s North Laine with 48-hour slow-fermented dough.
             </p>
           </div>
 
@@ -168,10 +168,10 @@ export default function HomePage() {
                 From Kitchen to Restaurant
               </h3>
               <p className="mb-4 text-lg text-deep-black/80">
-                Jack stumbled upon Detroit-style pizza and fell in love. What started as experiments in mum's kitchen turned into a passion for perfecting the craft.
+                Jack stumbled upon Detroit-style pizza and fell in love. What started as experiments in mum&apos;s kitchen turned into a passion for perfecting the craft.
               </p>
               <p className="text-lg text-deep-black/80">
-                After perfecting his method and 48-hour fermentation process, Jack's Pizza was born. Now we're bringing authentic Detroit-style pizza to Brighton's North Laine.
+                After perfecting his method and 48-hour fermentation process, Jack&apos;s Pizza was born. Now we&apos;re bringing authentic Detroit-style pizza to Brighton&apos;s North Laine.
               </p>
             </div>
             <div className="order-first md:order-last">
@@ -284,7 +284,7 @@ export default function HomePage() {
             Opening Soon
           </h3>
           <p className="mb-6 text-xl text-white/90">
-            Stay tuned for our grand opening in Brighton's North Laine
+            Stay tuned for our grand opening in Brighton&apos;s North Laine
           </p>
           <button className="rounded-full border-2 border-black bg-white px-8 py-4 font-bold uppercase shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all duration-300 ease-out hover:translate-x-[-4px] hover:translate-y-[-4px] hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]" style={{ color: '#2EAE7D' }}>
             Get Notified
