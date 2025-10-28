@@ -36,7 +36,7 @@ export default function LoginPage() {
         {/* Logo/Title */}
         <div className="mb-8 text-center">
           <h1 className="mb-2 text-5xl font-bold uppercase tracking-wider text-jacks-green md:text-6xl">
-            Jack's Pizza
+            Jack&apos;s Pizza
           </h1>
           <p className="text-lg text-deep-black">Detroit Style. Retro Vibes.</p>
         </div>

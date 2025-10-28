@@ -96,7 +96,10 @@ export default function MenuPage() {
     if (!acc[item.category]) {
       acc[item.category] = [];
     }
-    acc[item.category]!.push(item);
+    const category = acc[item.category];
+    if (category) {
+      category.push(item);
+    }
     return acc;
   }, {} as Record<string, MenuItem[]>);
 
@@ -235,7 +238,7 @@ export default function MenuPage() {
       <footer className="border-t-4 border-black bg-white py-8">
         <div className="mx-auto max-w-7xl px-6 text-center md:px-8">
           <p className="text-sm font-semibold uppercase text-deep-black">
-            &copy; 2024 Jack's Pizza. Detroit Style. Brighton Vibes.
+            &copy; 2024 Jack&apos;s Pizza. Detroit Style. Brighton Vibes.
           </p>
         </div>
       </footer>

@@ -295,7 +295,7 @@ export default function AddMenuItemPage() {
           <div className="mt-6 rounded-lg bg-retro-yellow/20 border-2 border-retro-yellow p-4">
             <p className="text-xs font-semibold text-deep-black">
               <strong>Demo Mode:</strong> Items are saved in your browser's localStorage. They'll
-              persist during this session but won't be saved to a real database.
+              persist during this session but won&apos;t be saved to a real database.
             </p>
           </div>
         </div>
@@ -305,7 +305,7 @@ export default function AddMenuItemPage() {
       <footer className="border-t-4 border-black bg-white py-8">
         <div className="mx-auto max-w-7xl px-6 text-center md:px-8">
           <p className="text-sm font-semibold uppercase text-deep-black">
-            &copy; 2024 Jack's Pizza. Detroit Style. Brighton Vibes.
+            &copy; 2024 Jack&apos;s Pizza. Detroit Style. Brighton Vibes.
           </p>
         </div>
       </footer>
