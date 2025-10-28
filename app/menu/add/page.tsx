@@ -294,7 +294,7 @@ export default function AddMenuItemPage() {
           {/* Demo Note */}
           <div className="mt-6 rounded-lg bg-retro-yellow/20 border-2 border-retro-yellow p-4">
             <p className="text-xs font-semibold text-deep-black">
-              <strong>Demo Mode:</strong> Items are saved in your browser's localStorage. They'll
+              <strong>Demo Mode:</strong> Items are saved in your browser&apos;s localStorage. They&apos;ll
               persist during this session but won&apos;t be saved to a real database.
             </p>
           </div>
