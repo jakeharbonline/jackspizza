@@ -244,6 +244,37 @@ export default function AddMenuItemPage() {
               <label className="mb-2 block text-sm font-semibold uppercase text-deep-black">
                 Pizza Image *
               </label>
+
+              {/* Upload Button */}
+              <div className="mb-4">
+                <label
+                  htmlFor="image-upload"
+                  className="inline-block cursor-pointer rounded-lg border-2 border-jacks-green bg-white px-6 py-3 font-bold uppercase text-jacks-green shadow-[3px_3px_0px_0px_#2EAE7D] transition-all duration-300 hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[5px_5px_0px_0px_#2EAE7D]"
+                >
+                  📤 Upload Image
+                </label>
+                <input
+                  id="image-upload"
+                  type="file"
+                  accept="image/*"
+                  className="hidden"
+                  onChange={(e) => {
+                    const file = e.target.files?.[0];
+                    if (file) {
+                      const reader = new FileReader();
+                      reader.onloadend = () => {
+                        setFormData({ ...formData, image: reader.result as string });
+                      };
+                      reader.readAsDataURL(file);
+                    }
+                  }}
+                />
+                <p className="mt-2 text-xs text-deep-black/60">
+                  Upload your own image or choose from the options below
+                </p>
+              </div>
+
+              {/* Pre-selected Images */}
               <div className="grid grid-cols-3 gap-4">
                 {[
                   '/jackspizzacol.jpeg',
