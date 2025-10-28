@@ -12,18 +12,11 @@ export default function HomePage() {
       </div>
 
       <div className="mb-8 w-full max-w-4xl">
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          preload="auto"
+        <img
+          src="/jackspizzaanimation.gif"
+          alt="Jack's Pizza animation"
           className="w-full rounded-lg"
-          disablePictureInPicture
-          disableRemotePlayback
-        >
-          <source src="/video.mp4" type="video/mp4" />
-        </video>
+        />
       </div>
       <h1
         className="animate-fade-in text-5xl font-bold tracking-wider md:text-7xl"
