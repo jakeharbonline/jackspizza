@@ -17,6 +17,16 @@ export default function HomePage() {
           alt="Jack's Pizza animation"
           className="w-full rounded-lg"
         />
+        <div className="mt-4 text-center">
+          <a
+            href="/jackspizzaanimation.gif"
+            download="jackspizza-animation.gif"
+            className="inline-block rounded-full border-2 border-black bg-white px-6 py-3 font-bold uppercase shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] transition-all duration-300 ease-out hover:translate-x-[-3px] hover:translate-y-[-3px] hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]"
+            style={{ color: '#2EAE7D' }}
+          >
+            📥 Download GIF
+          </a>
+        </div>
       </div>
       <h1
         className="animate-fade-in text-5xl font-bold tracking-wider md:text-7xl"
